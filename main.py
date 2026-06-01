@@ -58,7 +58,7 @@ async def summarize_arxiv(request: URLRequest):
 
     except Exception as e:
         logger.error(f"Error processing PDF: {e}")
-        return {"error": "Failed to process PDF"}
+        return {"error" : "Failed to process PDF"}
 
 
 def download_pdf(url):
