@@ -38,7 +38,7 @@ async def summarize_arxiv(request: URLRequest):
 
         pdf_path = download_pdf(url)
         if not pdf_path:
-            return {"error": "Failed to download PDF. Check the URL."}
+            return {"error": "Failed to download the PDF. Check the URL Correctness."}
 
         logger.info(f"PDF saved at: {pdf_path}")
 
