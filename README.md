@@ -8,7 +8,7 @@
 
 ## 🛠 Features
 
-- 🌐 **Input an ArXiv PDF URL** to fetch and summarize papers.
+- 🌐 **Input an  ArXiv PDF URL** to fetch and summarize papers.
 - 📑 **Extracts technical content** (architecture, implementation, results).
 - 🔍 **Optimized for large text processing** with **parallel summarization**.
 - 🎨 **Modern UI** built with **Streamlit**.
